@@ -1,0 +1,150 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge; charset=ISO-8859-1">
+    <title>Registrate en nuestro chat</title>
+    <!-- Bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Css Personalizado -->
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+  
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top">
+
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">LogoChat</a>
+        
+        <!-- Navbar Boton - Icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Contenido del Navbar -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+        
+            <!-- Lista -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio
+                        <span class="sr-only">Navbar de la pagina</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                </li>  
+            </ul>
+            <!-- Form Buscar -->
+            <form class="form-inline">
+              <div class="md-form my-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+              </div>
+              <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+      <!-- Contenido del Navbar -->
+  
+  </nav>
+
+      <!-- Seccion del Header -->
+        <div class="view rgba-fondo">
+          <div class="container my-5 opacity">
+              <div class="row align-items-center">
+                <div class="col-md-7 my-4">
+                  <div class="col-md-12 mb-5 mt-md-0 mt-5 text-center text-md-left animated fadeInLeft" data-wow-delay="0.3s">
+                    <h1 class="display-4 font-weight-bold">Lorem ipsum</h1>
+                    <hr class="hr-light">
+                    <h6 class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae, quisquam iste.</h6>
+                    <a class="btn btn-outline-light">Learn more</a>
+                  </div>  
+                </div>
+                <div class="col-md-5">
+                    <div class="card rgba-card animated fadeInRight my-4 bg-transparent" data-wow-delay="0.3s">
+                        <div class="card-body">
+                          <form action="" id="formulario" name="formulario" autocomplete="on">
+                              <div class="row py-4 d-flex justify-content-center">
+                              <i class="user fas fa-user"></i>
+                              <h3 class="">Registrate</h3>
+                              
+                              </div>
+                              <hr class="hr-light">
+                              <div class="form-row">
+                                <div class="form-group col md-form">
+                                  <input type="text" class="form-control white-text" id="nombres" name="nombres">
+                                  <label for="nombres" id="nom" class="font-weight-light mx-1">Nombres</label>
+                                </div>
+                                <div class="form-group col md-form">
+                                  <input type="text" class="form-control white-text" id="apellidos" name="apellidos" >
+                                  <label for="apellidos" class="font-weight-light mx-1">Apellidos</label>
+                                  
+                                </div>
+                              </div>
+                              <div class="form-group md-form">
+                                <input type="text" name="usuario" class="form-control white-text" id="usuario"> 
+                                <label for="usuario" class="font-weight-light">Usuario</label> 
+                              </div>
+                              <div class="form-group md-form">
+                                <input type="email" class="form-control white-text" name="email" id="email">
+                                <label for="email" class="font-weight-light">Correo Electrónico</label>
+                              </div>
+                              <div class="form-row">
+                                <div class="form-group col md-form">
+                                  <input type="password" class="form-control white-text" id="clave" name="clave">
+                                  <label for="clave" class="font-weight-light mx-1">Contraseña</label>
+                                </div>
+                                <div class="form-group col md-form">
+                                  <input type="password" class="form-control white-text" id="clavecon" name="clavecon">
+                                  <label for="clavecon" class="font-weight-light mx-1">Confirmar Contraseña</label>
+                                </div>
+                              </div>
+                              <div class="form-check col-12">
+                                  <input type="checkbox" class="form-check-input" id="terminos" name="terminos">
+                                  <label for="terminos" class="form-check-label">Acepta los <a href="#" class="font-weight-light">Términos y Condiciones</a></label>
+                              </div><div></div>
+                              <div class="text-center md-form">
+                                <input type="submit" class="btn btn-primary btn-rounded" value="Registrate">
+                              </div>
+                         </form>
+                       </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+  </header>
+
+    <!-- SCRIPTS -->
+     <!-- Fonts Awesome -->
+    <script src="js/fontawesome-all.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- JQuery Validate -->
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script type="text/javascript" src="js/validation.js"></script>
+</body>
+
+</html>
