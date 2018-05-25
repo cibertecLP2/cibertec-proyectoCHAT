@@ -1,38 +1,15 @@
-
 /* Required for full background image */
-*{
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 .user{
   font-size: 1.8rem;
   margin-right: 2%;
 }
-  
-
-
-body{
-   
+ 
+.imagenfondo{
+    min-height: 100vh;
     color: white;
     background-image: url(../img/what-the-hex.png);
-    background-size: cover; 
     /* background-color: #6ca2c4; */
     }
-    /* @media(min-width:576px){.view,.rgba-fondo {
-      height: 100%;
-    }}
-    @media(min-width:768px){.view,.rgba-fondo {
-      height: 100%;
-    }}
-    @media(min-width:992px){.view,.rgba-fondo {
-      height: 100%;
-    }}
-    @media(min-width:1200px){.view,.rgba-fondo {
-      height: 100%;
-    }} */
 
 form div small{
   color: rgb(100, 17, 17);
@@ -55,13 +32,13 @@ small.error{
   }
 }
 
-
 .rgba-card {
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(26, 185, 212, 0.2) 100%);
   background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(26, 185, 212, 0.2) 100%));
   background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(26, 185, 212, 0.2) 100%);
 }
 .rgba-fondo {
+  min-height: 100vh;
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(142, 220, 248, 1) 100%);
   background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(142, 220, 248, 1) 100%));
   background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(142, 220, 248, 1) 100%);

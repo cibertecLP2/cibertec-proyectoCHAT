@@ -38,7 +38,7 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Inicio
-                        <span class="sr-only">Navbar de la pagina</span>
+                    <span class="sr-only">Navbar de la pagina</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -50,79 +50,83 @@
             </ul>
             <!-- Form Buscar -->
             <form class="form-inline">
-              <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-              </div>
-                <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Buscar</button>
-          </form>
+                <div class="md-form my-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+                </div>
+                <button class="btn btn-outline-white btn-md ml-3" type="submit">Buscar</button>
+            </form>
         </div>
       </div>
       <!-- Contenido del Navbar -->
   
   </nav>
 
-      <!-- Seccion del Header -->
-        <div class="view rgba-fondo">
-          <div class="container my-5 opacity">
-              <div class="row align-items-center">
-                <div class="col-md-7 my-4">
-                  <div class="col-md-12 mb-5 mt-md-0 mt-5 text-center text-md-left animated fadeInLeft" data-wow-delay="0.3s">
-                    <h1 class="display-4 font-weight-bold">Lorem ipsum</h1>
-                    <hr class="hr-light">
-                    <h6 class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae, quisquam iste.</h6>
-                    <a class="btn btn-outline-light">Learn more</a>
-                  </div>  
-                </div>
-                <div class="col-md-5">
-                    <div class="card rgba-card animated fadeInRight my-4 bg-transparent" data-wow-delay="0.3s">
-                        <div class="card-body">
-                          <form action="" id="formulario" name="formulario" autocomplete="on">
-                              <div class="row py-4 d-flex justify-content-center">
-                              <i class="user fas fa-user"></i>
-                              <h3 class="">Registrate</h3>
-                              
-                              </div>
-                              <hr class="hr-light">
-                              <div class="form-row">
-                                <div class="form-group col md-form">
-                                  <input type="text" class="form-control white-text" id="nombres" name="nombres">
-                                  <label for="nombres" id="nom" class="font-weight-light mx-1">Nombres</label>
-                                </div>
-                                <div class="form-group col md-form">
-                                  <input type="text" class="form-control white-text" id="apellidos" name="apellidos" >
-                                  <label for="apellidos" class="font-weight-light mx-1">Apellidos</label>
-                                  
-                                </div>
-                              </div>
-                              <div class="form-group md-form">
-                                <input type="text" name="usuario" class="form-control white-text" id="usuario"> 
-                                <label for="usuario" class="font-weight-light">Usuario</label> 
-                              </div>
-                              <div class="form-group md-form">
-                                <input type="email" class="form-control white-text" name="email" id="email">
-                                <label for="email" class="font-weight-light">Correo Electrónico</label>
-                              </div>
-                              <div class="form-row">
-                                <div class="form-group col md-form">
-                                  <input type="password" class="form-control white-text" id="clave" name="clave">
-                                  <label for="clave" class="font-weight-light mx-1">Contraseña</label>
-                                </div>
-                                <div class="form-group col md-form">
-                                  <input type="password" class="form-control white-text" id="clavecon" name="clavecon">
-                                  <label for="clavecon" class="font-weight-light mx-1">Confirmar Contraseña</label>
-                                </div>
-                              </div>
-                              <div class="form-check col-12">
-                                  <input type="checkbox" class="form-check-input" id="terminos" name="terminos">
-                                  <label for="terminos" class="form-check-label">Acepta los <a href="#" class="font-weight-light">Términos y Condiciones</a></label>
-                              </div><div></div>
-                              <div class="text-center md-form">
-                                <input type="submit" class="btn btn-primary btn-rounded" value="Registrate">
-                              </div>
-                         </form>
-                       </div>
-                    </div>
-                </div>
+      <!-- Intro del Header -->
+        <!-- Imagen y color de texto del intro -->
+        <div class="imagenfondo">
+            <!-- Gradiente y posicionamiento -->
+            <div class="mask rgba-fondo d-flex justify-content-center align-items-center">
+                <div class="container mt-5">
+                    <!-- 1Columna Central -->
+                    <div class="row mt-5 align-items-center">
+                        <div class="col-md-6 col-xl-7 mt-md-0 text-center white-text text-md-left animated fadeInLeft" data-wow-delay="0.3s">
+                          <h1 class="display-4 font-weight-bold">Lorem ipsum</h1>
+                          <hr class="hr-light">
+                          <h6 class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae, quisquam iste.</h6>
+                          <a class="btn btn-outline-light">Learn more</a>
+                      </div>
+                      <!-- 2Columna -->
+                      <div class="col-md-6 col-xl-5 mb-4 mt-5">
+                        <!-- Card -->
+                          <div class="card rgba-card animated fadeInRight" data-wow-delay="0.3s">
+                              <div class="card-body">
+                                <form action="" id="formulario" name="formulario" autocomplete="on">
+                                  <div class="text-center">
+                                  <h3 class="white-text">
+                                  <i class="user fas fa-user"></i> Registrate</h3>
+                                  <hr class="hr-light">
+                                  </div>
+                                  <!-- Body del Form -->
+                                    <div class="form-row">
+                                      <div class="form-group col md-form">
+                                        <input type="text" class="form-control white-text" id="nombres" name="nombres">
+                                        <label for="nombres" id="nom" class="font-weight-light mx-1">Nombres</label>
+                                      </div>
+                                      <div class="form-group col md-form">
+                                        <input type="text" class="form-control white-text" id="apellidos" name="apellidos" >
+                                        <label for="apellidos" class="font-weight-light mx-1">Apellidos</label>
+                                      </div>
+                                    </div>
+                                    <div class="form-group md-form">
+                                      <input type="text" name="usuario" class="form-control white-text" id="usuario"> 
+                                      <label for="usuario" class="font-weight-light">Usuario</label> 
+                                    </div>
+                                    <div class="form-group md-form">
+                                      <input type="email" class="form-control white-text" name="email" id="email">
+                                      <label for="email" class="font-weight-light">Correo Electrónico</label>
+                                    </div>
+                                    <div class="form-row">
+                                      <div class="form-group col md-form">
+                                        <input type="password" class="form-control white-text" id="clave" name="clave">
+                                        <label for="clave" class="font-weight-light mx-1">Contraseña</label>
+                                      </div>
+                                      <div class="form-group col md-form">
+                                        <input type="password" class="form-control white-text" id="clavecon" name="clavecon">
+                                        <label for="clavecon" class="font-weight-light mx-1">Confirmar Contraseña</label>
+                                      </div>
+                                    </div>
+                                    <div class="form-check col-12">
+                                        <input type="checkbox" class="form-check-input" id="terminos" name="terminos">
+                                        <label for="terminos" class="form-check-label">Acepta los <a href="#" class="font-weight-light">Términos y Condiciones</a></label>
+                                    </div><div></div>
+                                    <div class="text-center md-form mt-4">
+                                      <input type="submit" class="btn btn-primary btn-rounded" value="Registrate">
+                                    </div>
+                               </form>
+                             </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
             </div>
         </div>
